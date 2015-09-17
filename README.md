@@ -18,6 +18,7 @@ Touch enabled jQuery plugin that lets you create beautiful responsive carousel s
 * JSON 
 * Custom events
 * Helpful callbacks
+* RTL language support (tested on Chrome and Firefox)
 
 > Tested on IE7, IE8, IE9, IE10, Chrome, Safari, Firefox, Opera, iPhone, iPad, Chrome on Google Nexus.
 
