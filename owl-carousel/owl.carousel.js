@@ -624,6 +624,10 @@ if (typeof Object.create !== "function") {
             }
             goToPixel = base.positionsInArray[position];
 
+            if (base.$elem.attr('dir') === 'rtl') {
+                goToPixel = -goToPixel;
+            }
+
             if (base.browser.support3d === true) {
                 base.isCss3Finish = false;
 
